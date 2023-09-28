@@ -1,9 +1,17 @@
+@font-face {
+    font-family: Porschefont;
+    src: url(911porschav3title.ttf);
+}
+@font-face {
+    font-family: Porschetext;
+    src: url(911porschav3.ttf);
+}
 body{
     background-color: black;
 }
 .poster{
     color: white;
-    font-family: 'Libre Baskerville', serif;
+    
     width: 50%;
     margin-left: 25%;
     margin-top: 100px;
@@ -14,6 +22,10 @@ body{
     width: 100%
 }
 h1{
+    font-family: Porschefont;
     text-transform: uppercase;
     font-size: 3rem;
+}
+p{
+    font-family: Porschetext;
 }
